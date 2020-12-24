@@ -156,8 +156,8 @@ element.style {
 	padding: 0px 0px 40px;
 }
 .feature .inner-feature .media img {
-    padding: 13px 30px 0px 0px;
-    margin: 0px !important;
+	padding: 13px 30px 0px 0px;
+	margin: 0px !important;
 }
 .feature .inner-feature .media-body{
 	padding: 0px;
@@ -182,23 +182,23 @@ element.style {
 	color: #565656;
 }
 .feature .inner-feature .know-more p {
-    margin: 0px;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    line-height: 26px;
-    color: #565656;
-    padding: 40px 0px 0px 95px;
+	margin: 0px;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #565656;
+	padding: 40px 0px 0px 95px;
 }
 .feature .inner-feature .know-more a {
-    color: #df508f;
-    text-decoration: underline;
+	color: #df508f;
+	text-decoration: underline;
 }
 /*feature section ends*/
 /*about section starts*/
 .about-section{
 	width: 100%;
-	padding: 80px 0px;
+	padding: 80px 0px 40px;
 	background: url("../images/bg2.png") center top no-repeat;
 	background-size: cover;
 }
@@ -222,12 +222,273 @@ element.style {
 	letter-spacing: 0px;
 	line-height: 26px;
 	color: #fff;
-	padding: 0px 0px 60px;
+	padding: 0px 0px 50px;
 }
 .about-section .heading02 .line {
-    width: 77px;
-    height: 2px;
-    background-color: #fff;
+	width: 77px;
+	height: 2px;
+	background-color: #fff;
+}
+.about-section .details{
+	width: 100%;
+	padding: 125px 0px 80px;
+}
+.about-section .details .sec01{
+	padding: 0px 0px 80px;
+}
+.about-section .details .sec01 h4{
+	margin: 0px;
+	font-size: 23px;
+	font-weight: 300;
+	line-height: 45px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #fff;
+	padding: 0px 0px 15px;
+}
+.about-section .details .sec01 p{
+	margin: 0px;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #fff;
+}
+.about-section .details .sec02{
+
+}
+.about-section .details .sec02 h4{
+	margin: 0px;
+	font-size: 23px;
+	font-weight: 300;
+	line-height: 45px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #fff;
+	padding: 15px 0px 15px;
+}
+.about-section .details .sec02 p{
+	margin: 0px;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #fff;
 }
 /*about section ends*/
+
+/*video section starts*/
+.video-section{
+	width: 100%;
+}
+.video-section #video1{
+	width: 100%;
+	position: relative;
+	top: 0;
+	height: auto;
+	overflow-x: hidden;
+}
+/*video section ends*/
+
+/*screenshot section starts*/
+.ss{
+	width: 100%;
+	padding: 80px 0px;
+}
+.ss .ss-head{
+	width: 100%;
+}
+.ss .ss-head h2{
+	margin: 0px;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 50px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #7954b6;
+	padding: 0px 0px 30px;
+}
+.ss .ss-head p{
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #565656;
+	padding: 0px 0px 100px;
+}
+
+.ss .ss-body{
+
+}
+.ss .ss-body h4{
+	margin: 0px;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 33px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #7954b6;
+	padding: 0px 0px 25px;
+}
+.ss .ss-body p{
+	margin: 0px;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 25px;
+	color: #616161;
+	padding: 0px 0px 40px;
+}
+.ss .main-item{
+	width: 100%;
+	/*padding: 120px 0px;*/
+}
+.ss .main-item .media0 .mr-2 {
+	margin: 0px !important;
+	position: absolute;
+	height: 777px;
+	top: 0px;
+}
+.main-item .owl-carousel .item {
+	position: relative;
+	top: 0px;
+	/* height: 500px; */
+	width: 341px;
+	margin: 155px 0px 0px 38px;
+}
+.main-item .owl-carousel .mr-3 {
+	margin: 0px !important;
+	position: relative;
+	/*left: -154px;*/
+}
+.main-item .owl-carousel .mr-4 {
+	margin: 0px !important;
+	position: relative;
+	top: -29px;
+	/*left: -42px;*/
+}
+.main-item .owl-carousel.owl-drag .owl-item {
+	/*padding: 0px 184px;*/
+}
+.main-item .owl-theme .owl-nav.disabled+.owl-dots {
+	margin: 0px;
+	padding: 0px 0px 0px 435px;
+}
+/*screenshots section ends*/
+
+/*pricing section starts*/
+.price-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.price-section .heading03{
+	width: 100%;
+	padding: 0px 0px 100px;
+	text-align: center;
+}
+.price-section .heading03 h2{
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 50px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #7954b6;
+	padding: 0px 0px 30px;
+	margin: 0px;
+}
+.price-section .heading03 p{
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #565656;
+	padding: 0px 0px 50px;
+}
+.price-section .heading03 .line {
+	width: 77px;
+	height: 2px;
+	background-color: #f34791;
+	position: absolute;
+	left: 46%;
+}
+/*pricing section ends*/
+
+/*card section starts*/
+.card {
+    width: 80%;
+    transition: 0.7s;
+    border-radius: 7px;
+}
+.card:hover, .card:focus{
+	box-shadow: 10px 10px 10px #eee;
+}
+.card .card-body {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.card .card-body .card-title {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 26px;
+	margin: 0px;
+	padding: 35px 0px 10px;
+	text-transform: capitalize;
+	color: #7954b6;
+}
+.card .card-body h3 {
+	margin: 0px;
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #7954b6;
+	padding: 0px 0px 20px;
+}
+.card .card-body h3 .dollar {
+	font-size: 30px;
+	font-weight: 600;
+	color: #7954b6;
+}
+.card .card-body h3 .num {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 65px;
+	color: #7954b6;
+	padding: 0px 5px 0px 0px;
+}
+.card .card-body ul{
+
+}
+.card .card-body ul li {
+	display: block;
+	list-style: none;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 7px 0px;
+}
+.card .card-body ul li img {
+	padding: 0px 20px 0px 65px;
+}
+.card .card-body .btn-primary {
+    margin: 13px 0px 30px 63px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background: #8e5edd;
+    transition: 0.7s;
+}
+.card .card-body .btn-primary:hover, .card .card-body .btn-primary:focus{
+	border: 1px solid #8e5edd;
+	color: #8e5edd;
+	background: transparent;
+}
+/*card section ends*/
 /*Body ends*/
