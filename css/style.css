@@ -206,9 +206,9 @@ element.style {
 	width: 100%;
 }
 .about-section .heading02 h2{
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: 300;
-	line-height: 50px;
+	line-height: 45px;
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	color: #fff;
@@ -300,9 +300,9 @@ element.style {
 }
 .ss .ss-head h2{
 	margin: 0px;
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: 300;
-	line-height: 50px;
+	line-height: 45px;
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	color: #7954b6;
@@ -388,9 +388,9 @@ element.style {
 	text-align: center;
 }
 .price-section .heading03 h2{
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: 300;
-	line-height: 50px;
+	line-height: 45px;
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	color: #7954b6;
@@ -491,4 +491,44 @@ element.style {
 	background: transparent;
 }
 /*card section ends*/
+
+/*testimonial section starts*/
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+}
+.testimonial .heading03{
+	width: 100%;
+	padding: 0px 0px 100px;
+	text-align: center;
+}
+.testimonial .heading03 h2{
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 45px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #7954b6;
+	padding: 0px 0px 30px;
+	margin: 0px;
+}
+.testimonial .heading03 p{
+	margin: 0px;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #565656;
+	padding: 0px 0px 50px;
+}
+.testimonial .heading03 .line {
+	width: 77px;
+	height: 2px;
+	background-color: #f34791;
+	position: absolute;
+	left: 46%;
+}
+
+
+/*tesimonial section ends*/
 /*Body ends*/
