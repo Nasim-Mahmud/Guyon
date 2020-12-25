@@ -156,30 +156,33 @@ element.style {
 	padding: 0px 0px 40px;
 }
 .feature .inner-feature .media img {
-	padding: 13px 30px 0px 0px;
-	margin: 0px !important;
+    padding: 13px 20px 0px 0px;
+    margin: 0px !important;
+    height: 60px;
 }
 .feature .inner-feature .media-body{
 	padding: 0px;
 	margin: 0px;
 }
-.feature .inner-feature .media-body h4{
-	margin: 0px;
-	font-size: 23px;
-	font-weight: 300;
-	line-height: 45px;
-	letter-spacing: 1px;
-	text-transform: capitalize;
-	color: #7954b6;
-	padding: 0px 0px 15px;
+.feature .inner-feature .media-body h4 {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #7954b6;
+    padding: 0px 0px 10px;
+    position: relative;
+    top: 3px;
 }
-.feature .inner-feature .media-body p{
-	margin: 0px;
-	font-size: 15px;
-	font-weight: 400;
-	letter-spacing: 0px;
-	line-height: 26px;
-	color: #565656;
+.feature .inner-feature .media-body p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #565656;
 }
 .feature .inner-feature .know-more p {
 	margin: 0px;
@@ -193,6 +196,22 @@ element.style {
 .feature .inner-feature .know-more a {
 	color: #df508f;
 	text-decoration: underline;
+}
+
+.feature #carousel01 {
+    width: 70%;
+    height: 230px;
+    position: relative !important;
+    left: 40px;
+}
+.feature #carousel01 .media {
+    
+}
+.feature #carousel01 .media img {
+    display: hidden;
+    cursor: pointer;
+    width: 70% !important;
+    height: 120% !important;
 }
 /*feature section ends*/
 /*about section starts*/
@@ -528,6 +547,16 @@ element.style {
 	position: absolute;
 	left: 46%;
 }
+
+.testimonial #carousel {
+    width:100%;
+    height: 300px;
+    position: relative;
+  }
+.testimonial #carousel img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+  }
 
 
 /*tesimonial section ends*/
