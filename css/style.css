@@ -156,33 +156,33 @@ element.style {
 	padding: 0px 0px 40px;
 }
 .feature .inner-feature .media img {
-    padding: 13px 20px 0px 0px;
-    margin: 0px !important;
-    height: 60px;
+	padding: 13px 20px 0px 0px;
+	margin: 0px !important;
+	height: 60px;
 }
 .feature .inner-feature .media-body{
 	padding: 0px;
 	margin: 0px;
 }
 .feature .inner-feature .media-body h4 {
-    margin: 0px;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    color: #7954b6;
-    padding: 0px 0px 10px;
-    position: relative;
-    top: 3px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #7954b6;
+	padding: 0px 0px 10px;
+	position: relative;
+	top: 3px;
 }
 .feature .inner-feature .media-body p {
-    margin: 0px;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    line-height: 24px;
-    color: #565656;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 24px;
+	color: #565656;
 }
 .feature .inner-feature .know-more p {
 	margin: 0px;
@@ -199,19 +199,19 @@ element.style {
 }
 
 .feature #carousel01 {
-    width: 70%;
-    height: 230px;
-    position: relative !important;
-    left: 40px;
+	width: 70%;
+	height: 230px;
+	position: relative !important;
+	left: 40px;
 }
 .feature #carousel01 .media {
-    
+
 }
 .feature #carousel01 .media img {
-    display: hidden;
-    cursor: pointer;
-    width: 70% !important;
-    height: 120% !important;
+	display: hidden;
+	cursor: pointer;
+	width: 70% !important;
+	height: 120% !important;
 }
 /*feature section ends*/
 /*about section starts*/
@@ -436,9 +436,9 @@ element.style {
 
 /*card section starts*/
 .card {
-    width: 80%;
-    transition: 0.7s;
-    border-radius: 7px;
+	width: 80%;
+	transition: 0.7s;
+	border-radius: 7px;
 }
 .card:hover, .card:focus{
 	box-shadow: 10px 10px 10px #eee;
@@ -493,16 +493,16 @@ element.style {
 	padding: 0px 20px 0px 65px;
 }
 .card .card-body .btn-primary {
-    margin: 13px 0px 30px 63px;
-    padding: 10px 25px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 28px;
-    text-transform: uppercase;
-    border: 1px solid transparent;
-    border-radius: 25px;
-    background: #8e5edd;
-    transition: 0.7s;
+	margin: 13px 0px 30px 63px;
+	padding: 10px 25px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 28px;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	border-radius: 25px;
+	background: #8e5edd;
+	transition: 0.7s;
 }
 .card .card-body .btn-primary:hover, .card .card-body .btn-primary:focus{
 	border: 1px solid #8e5edd;
@@ -512,9 +512,9 @@ element.style {
 /*card section ends*/
 
 /*testimonial section starts*/
-.testimonial{
-	width: 100%;
-	padding: 80px 0px;
+.testimonial {
+    width: 100%;
+    padding: 60px 0px 120px;
 }
 .testimonial .heading03{
 	width: 100%;
@@ -549,15 +549,28 @@ element.style {
 }
 
 .testimonial #carousel {
-    width:100%;
-    height: 300px;
-    position: relative;
-  }
-.testimonial #carousel img {
-    display: hidden; /* hide images until carousel prepares them */
-    cursor: pointer; /* not needed if you wrap carousel items in links */
-  }
-
-
+	width:100%;
+	height: 300px;
+	position: relative;
+}
+.testimonial #carousel .media{
+	display: hidden;
+	cursor: pointer;
+}
+.testimonial #carousel .media .mr-1 {
+    margin: 0px !important;
+    height: 100% !important;
+    width: 48% !important;
+}
+.testimonial #carousel .media .mr-2 {
+    margin: 0px !important;
+    height: 100% !important;
+    width: 48% !important;
+}
+.testimonial #carousel .media .mr-3 {
+    margin: 0px !important;
+    height: 100% !important;
+    width: 48% !important;
+}
 /*tesimonial section ends*/
 /*Body ends*/
