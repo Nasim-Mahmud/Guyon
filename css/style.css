@@ -3,7 +3,9 @@
 	padding: 0px;
 	margin: 0px;
 }
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -415,7 +417,7 @@ element.style {
 /*pricing section starts*/
 .price-section{
 	width: 100%;
-	padding: 80px 0px;
+	padding: 70px 0px;
 }
 .price-section .heading03{
 	width: 100%;
